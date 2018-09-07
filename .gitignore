@@ -31,3 +31,7 @@ target/
 #system ignore
 .DS_Store
 Thumb.db
+
+
+datasource.properties
+generatorConfig.xml

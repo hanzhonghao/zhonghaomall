@@ -8,8 +8,8 @@
     <properties resource="datasource.properties"></properties>
 
     <!--指定特定数据库的jdbc驱动jar包的位置-->
-    <classPathEntry location="C:\User\mysql-connector-java-5.1.6-bin.jar"/>
-
+    <!--<classPathEntry location="C:\User\mysql-connector-java-5.1.6-bin.jar"/>-->
+    <classPathEntry location="${db.driverLocation}"/>
     <context id="default" targetRuntime="MyBatis3">
 
         <!-- optional，旨在创建class时，对注释进行控制 -->
